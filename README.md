@@ -21,17 +21,19 @@ Chosen because it provides a modern, reliable way to check for network changes a
 ## 3. Troubleshooting Tips and Common Issues:
 
 * Network Issues: If the app isn't connecting to the internet, check the network status. The app uses the Network framework to monitor network connectivity, and if the network is down, a “No Connection” view will be displayed.
-* Camera Permissions: Make sure the app has permission to use the camera. If the camera doesn't load, check the Info.plist for missing camera usage permissions. Add:
-xml
-Копіювати код
+* Camera Permissions: Make sure the app has permission to use the camera. If the camera doesn't load, check the Info.plist for missing camera usage permissions.
+  
+```
 <key>NSCameraUsageDescription</key>
 <string>We need access to your camera to take pictures.</string>
+```
 * API Errors: If the app fails to load data from the API, ensure the endpoint is accessible and check the URLSession response for errors.
 ## 4. How to Build the Application:
 
 * Clone the repository from GitHub:
 bash
 Копіювати код
+
 ``` git clone https://github.com/yourusername/yourrepo.git ```
 * Open the project in Xcode (make sure you have the latest version).
 * Ensure all required permissions are added to the Info.plist for camera access and network monitoring.
