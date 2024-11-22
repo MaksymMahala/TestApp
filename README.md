@@ -21,8 +21,7 @@ Chosen because it provides a modern, reliable way to check for network changes a
 ## 3. Troubleshooting Tips and Common Issues:
 
 * Network Issues: If the app isn't connecting to the internet, check the network status. The app uses the Network framework to monitor network connectivity, and if the network is down, a “No Connection” view will be displayed.
-* Camera Permissions: Make sure the app has permission to use the camera. If the camera doesn't load, check the Info.plist for missing camera usage permissions.
-  
+* ### Camera Permissions: Make sure the app has permission to use the camera. If the camera doesn't load, check the Info.plist for missing camera usage permissions. Add:
 ```
 <key>NSCameraUsageDescription</key>
 <string>We need access to your camera to take pictures.</string>
