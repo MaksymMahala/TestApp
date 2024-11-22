@@ -34,7 +34,7 @@ Chosen because it provides a modern, reliable way to check for network changes a
 bash
 Копіювати код
 
-``` git clone https://github.com/yourusername/yourrepo.git ```
+``` git clone https://github.com/MaksymMahala/TestApp.git ```
 * Open the project in Xcode (make sure you have the latest version).
 * Ensure all required permissions are added to the Info.plist for camera access and network monitoring.
 * Build and run the project in Xcode to see the app in action.
